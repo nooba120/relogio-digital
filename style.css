@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans';
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(150deg, #9341ffda, #3025ffda);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.relogio {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 200px;
+    width: 500px;
+    background: transparent;
+    border-radius: 3px;
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.3);
+    position: relative;
+}
+
+.relogio div {
+    height: 170px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 60px;
+    background: rgba(5, 5, 5, 0.9);
+    color: white;
+    border-radius: 10px;
+    box-shadow:5px,5px, 15px rgba(0, 0, 0, 0.7) ;
+}
+
+.tempo {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
